@@ -1,0 +1,24 @@
+{
+  "name": "levenshteinsimilarity",
+  "version": "0.0.1",
+  "description": "Determine if two strings are similar using the Levenshtein distance (and setting a percentage of similarity, of course!).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valndev/LevenshteinSimilarity.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valndev/LevenshteinSimilarity/issues"
+  },
+  "homepage": "https://github.com/valndev/LevenshteinSimilarity#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0"
+  }
+}
