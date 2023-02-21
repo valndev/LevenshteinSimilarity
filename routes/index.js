@@ -13,7 +13,6 @@ router.get('/:percentage', async (req, res) => {
 	}
 
 	const { str1, str2 } = req.body;
-
 	if (!str1 || !str2) {
 		return res.status(400).json({
 			error: 'Invalid JSON.',
@@ -23,7 +22,6 @@ router.get('/:percentage', async (req, res) => {
 	}
 
 	const similarityPercentage = levenshtein(str1, str2);
-
 	if (similarityPercentage >= percentage) {
 		return res.status(200).json({
 			error: null,
