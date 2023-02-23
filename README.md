@@ -16,7 +16,7 @@ $ npm install
 $ node .
 ```
 
-## Expected JSON query (GET: https://localhost:3000/{percentage})
+## Expected JSON query (GET: `https://localhost:3000/{percentage}`)
 
 Where {percentage} is a number between 0 and 100.
 
