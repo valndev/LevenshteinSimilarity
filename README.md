@@ -1,6 +1,6 @@
 # LevenshteinSimilarity
 
-Determine if two strings are similar using the Levenshtein distance.
+Determine if two strings are similar using the [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance).
 
 ## Installation
 
