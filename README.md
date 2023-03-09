@@ -27,7 +27,7 @@ Where {percentage} is a number between 0 and 100.
 }
 ```
 
-## Output example
+## Example of a response
 
 ```json
 {
